@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button_fan"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/fan"
+            android:layout_marginLeft="10dp"
+            />
+        <EditText
+            android:id="@+id/edit_shou"
+            android:layout_width="260dp"
+            android:layout_height="50dp" />
+        <Button
+            android:id="@+id/button_cha"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/fdj"
+            />
+    </LinearLayout>
+</LinearLayout>
